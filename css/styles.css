@@ -61,7 +61,7 @@ p {
 .top-paragraph{
   font-size: 18px;
 }
-@media (max-width: 900px) {
+@media (max-width: 925px) {
   .project-description {
     padding: 0;
   }
