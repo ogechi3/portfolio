@@ -21,17 +21,8 @@ h2 {
 h3 {
   font-weight: 700;
   font-size: 24px;
-  text-align: center;
 }
-a {
-  font-weight: 500;
-  font-size: 16px;
-  color: #6c63ff;
-  border: 1px solid #6c63ff;
-  padding: 15px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -70,6 +61,15 @@ p {
   font-weight: 700;
   font-size: 64px;
 }
+.secondary-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
 .project-description {
   padding: 120px 60px;
@@ -77,12 +77,14 @@ p {
 .top-paragraph {
   font-size: 18px;
 }
+.content-container {
+  padding: 160px 20px;
+}
 .content-container h1 {
   font-size: 64px;
-  padding: 120px 80px;
 }
 .content {
-  padding: 10px 20px;
+  margin: 30px;
 }
 
 @media (max-width: 925px) {
