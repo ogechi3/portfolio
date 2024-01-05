@@ -18,6 +18,11 @@ h2 {
   font-weight: 700;
   font-size: 36px;
 }
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
 a {
   font-weight: 500;
   font-size: 16px;
@@ -32,9 +37,7 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
-.content h1 {
-  font-size: 64px;
-}
+
 .sub-heading {
   font-weight: 700;
   font-size: 18px;
@@ -74,10 +77,11 @@ p {
 .top-paragraph {
   font-size: 18px;
 }
-.content {
+.content-container h1 {
+  font-size: 64px;
   padding: 120px 80px;
 }
-.about-content {
+.content {
   padding: 10px 20px;
 }
 
@@ -101,11 +105,11 @@ p {
   h1 {
     font-size: 80px;
   }
-  .content {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .my-image{
+  .my-image {
     margin-top: 30px;
     width: 100%;
   }
