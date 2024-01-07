@@ -62,7 +62,7 @@ nav a:hover {
 }
 footer {
   text-align: center;
-  margin: 70px ;
+  margin: 70px;
 }
 .active {
   color: var(--secondary-color);
@@ -128,13 +128,13 @@ footer {
 .logo {
   max-height: 40px;
 }
-footer .social-links{
+footer .social-links {
   font-size: 18px;
 
 }
 footer .social-links a {
-  margin: 0px 10px 20px;
-  padding: 20px ;
+ margin-left: 30px;
+  padding: 20px;
   border-radius: 30px;
   color: var(--secondary-color);
   background-color: var(--domain-color);
