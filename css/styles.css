@@ -7,6 +7,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--header-font);
+}
 
 h1 {
   font-family: var(--header-font);
@@ -22,13 +28,16 @@ h3 {
   font-weight: 700;
   font-size: 24px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
 }
-ul{
+ul {
   padding: 0;
 }
 nav {
@@ -51,7 +60,11 @@ nav a:hover {
   color: var(--secondary-color);
   transition: 200ms ease-in-out;
 }
-.active{
+footer {
+  text-align: center;
+  margin: 70px ;
+}
+.active {
   color: var(--secondary-color);
 }
 
@@ -114,6 +127,37 @@ nav a:hover {
 }
 .logo {
   max-height: 40px;
+}
+footer .social-links{
+  font-size: 18px;
+
+}
+footer .social-links a {
+  margin: 0px 10px 20px;
+  padding: 20px ;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  background-color: var(--domain-color);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+footer .email-link a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email-link a:hover {
+  color: var(--secondary-color);
+}
+.work-inquiry {
+  padding: 25px 120px;
+  background-color: var(--domain-color);
+  border-radius: 8px;
 }
 
 @media (max-width: 925px) {
